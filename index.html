@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Endla Harshith Varma | Web Developer &amp; DevOps Enthusiast</title>
+    <meta
+      name="description"
+      content="Endla Harshith Varma - Computer Science Engineering student focused on Web Development and DevOps. Building responsive web experiences and exploring CI/CD, cloud infrastructure, and modern web technologies."
+    />
+    <meta name="author" content="Endla Harshith Varma" />
+    <meta
+      name="keywords"
+      content="Endla Harshith Varma, Web Developer, DevOps, MERN Stack, Full Stack, CI/CD, Cloud, Portfolio, Computer Science"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Endla Harshith Varma | Web Developer & DevOps Enthusiast"
+    />
+    <meta
+      property="og:description"
+      content="Computer Science Engineering student focused on Web Development and DevOps."
+    />
+    <meta property="og:image" content="images/KANNAYA.jpg" />
+
+    <!-- Favicon placeholder -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Skip link for accessibility -->
+    <a href="#home" class="skip-link">Skip to content</a>
+
+    <!-- ============ HEADER / NAV ============ -->
+    <header class="header" id="header">
+      <div class="container nav-container">
+        <a href="#home" class="logo-container" aria-label="Home">
+          <span class="logo-circle">EH</span>
+          <span class="logo-text">Endla Harshith Varma</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <ul class="nav-list" id="navList">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="assets/resume.pdf" class="btn btn-primary btn-sm" download>
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+            Resume
+          </a>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="navList"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-text reveal">
+            <span class="badge">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              Computer Science Engineering Student
+            </span>
+            <h1 class="hero-title">
+              Hi, I&apos;m
+              <span class="gradient-text">Endla Harshith Varma</span>
+            </h1>
+            <p class="hero-role">
+              <span class="typed" id="typed" aria-live="polite"></span>
+              <span class="cursor" aria-hidden="true">|</span>
+            </p>
+            <p class="hero-desc">
+              I build responsive web experiences and explore DevOps, CI/CD,
+              cloud infrastructure, and modern web technologies. Graduated in
+              May 2026 with a degree in Computer Science Engineering and always
+              eager to learn and grow.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+              <a href="assets/resume.pdf" class="btn btn-ghost" download>
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                Download Resume
+              </a>
+            </div>
+
+            <ul class="hero-socials" aria-label="Social links">
+              <li>
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-image-wrap">
+              <img
+                src="images/KANNAYA.jpg"
+                alt="Portrait of Endla Harshith Varma"
+                class="hero-image"
+                width="320"
+                height="320"
+              />
+              <span class="float-badge float-badge-1"
+                ><i class="fab fa-html5" aria-hidden="true"></i> HTML</span
+              >
+              <span class="float-badge float-badge-2"
+                ><i class="fab fa-js" aria-hidden="true"></i> JS</span
+              >
+              <span class="float-badge float-badge-3"
+                ><i class="fa-solid fa-cloud" aria-hidden="true"></i>
+                DevOps</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Get to know me</span>
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-visual reveal">
+              <div class="about-photo-wrap">
+                <img
+                  src="images/KANNAYA.jpg"
+                  alt="Endla Harshith Varma working"
+                  class="about-photo"
+                  loading="lazy"
+                  width="360"
+                  height="360"
+                />
+              </div>
+            </div>
+
+            <div class="about-body reveal">
+              <p>
+                I graduated in <strong>May 2026</strong> with a degree in
+                <strong>Computer Science Engineering</strong>, and I&apos;m
+                passionate about web development and DevOps engineering.
+                I&apos;m always eager to learn new technologies and improve my
+                skills to create efficient and scalable solutions.
+              </p>
+              <p>
+                I&apos;m interested in web technologies like the MERN stack and
+                full-stack development to build user-interactive websites and
+                applications. On the DevOps side, I enjoy optimizing processes,
+                implementing CI/CD pipelines, and working with cloud
+                infrastructure to enhance productivity and scalability. I&apos;m
+                always eager to learn and collaborate on projects that push my
+                boundaries and expand my skill set.
+              </p>
+
+              <div class="about-cards">
+                <div class="info-card">
+                  <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                  <h3>Education</h3>
+                  <p>
+                    B.Tech. Computer Science and Engineering 2022&ndash;2026
+                  </p>
+                </div>
+                <div class="info-card">
+                  <i class="fa-solid fa-bullseye" aria-hidden="true"></i>
+                  <h3>Focus</h3>
+                  <p>Web Development &amp; DevOps</p>
+                </div>
+                <div class="info-card">
+                  <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+                  <h3>Interests</h3>
+                  <p>MERN, Full Stack, CI/CD, Cloud</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EDUCATION ============ -->
+      <section class="section section-alt" id="education">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Academic background</span>
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-card-top">
+              <div>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p class="edu-school">
+                  Kamala Institute of Technology &amp; Science
+                </p>
+              </div>
+              <div class="edu-meta">
+                <span class="chip">2022 &ndash; 2026</span>
+                <span class="chip chip-accent">GPA: 7.95</span>
+              </div>
+            </div>
+
+            <h4 class="edu-sub">Relevant Coursework</h4>
+            <div class="tags">
+              <span class="tag">DevOps</span>
+              <span class="tag">Web Development</span>
+              <span class="tag">Artificial Intelligence</span>
+              <span class="tag">Database Systems</span>
+              <span class="tag">Data Structures &amp; Algorithms</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Computer Networks</span>
+              <span class="tag">Software Engineering</span>
+              <span class="tag">Computer Graphics</span>
+              <span class="tag">Operating Systems</span>
+            </div>
+
+            <h4 class="edu-sub">Achievements</h4>
+            <div class="achievements">
+              <div class="achievement">
+                <i class="fa-solid fa-flask" aria-hidden="true"></i>
+                <p>Real-Time Research Project (using MIT App Inventor)</p>
+              </div>
+              <div class="achievement">
+                <i class="fa-solid fa-award" aria-hidden="true"></i>
+                <p>Participation Certificate in Ideathon</p>
+              </div>
+              <div class="achievement">
+                <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+                <p>
+                  DevOps Internship Certificate &mdash; Krutanic Solutions (3
+                  months)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">What I work with</span>
+            <h2 class="section-title">Skills</h2>
+          </div>
+
+          <div class="skills-groups">
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+                Frontend
+              </h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <i class="fab fa-html5" aria-hidden="true"></i
+                  ><span>HTML</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-css3-alt" aria-hidden="true"></i
+                  ><span>CSS</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-js" aria-hidden="true"></i
+                  ><span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-bootstrap" aria-hidden="true"></i
+                  ><span>Bootstrap</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">
+                <i class="fa-solid fa-code" aria-hidden="true"></i> Programming
+              </h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <i class="fa-solid fa-c" aria-hidden="true"></i><span>C</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-java" aria-hidden="true"></i
+                  ><span>Java</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-python" aria-hidden="true"></i
+                  ><span>Python </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">
+                <i class="fa-solid fa-database" aria-hidden="true"></i> Database
+              </h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <i class="fa-solid fa-database" aria-hidden="true"></i
+                  ><span>SQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <h3 class="skill-group-title">
+                <i
+                  class="fa-solid fa-screwdriver-wrench"
+                  aria-hidden="true"
+                ></i>
+                Tools
+              </h3>
+              <div class="skill-grid">
+                <div class="skill-card">
+                  <i class="fab fa-github" aria-hidden="true"></i
+                  ><span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-jenkins" aria-hidden="true"></i
+                  ><span>Jenkins</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-docker" aria-hidden="true"></i
+                  ><span>Docker</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fab fa-cubes" aria-hidden="true"></i
+                  ><span>Kubernetes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="exploring reveal">
+            <h3 class="skill-group-title">
+              <i class="fa-solid fa-seedling" aria-hidden="true"></i> Currently
+              Exploring
+            </h3>
+            <div class="tags">
+              <span class="tag tag-explore">Full-Stack</span>
+              <span class="tag tag-explore">DevOps</span>
+              <span class="tag tag-explore">CI/CD</span>
+              <span class="tag tag-explore">Cloud</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DEVOPS FOCUS ============ -->
+      <section class="section section-alt" id="devops">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Area of interest</span>
+            <h2 class="section-title">DevOps &amp; Cloud Journey</h2>
+            <p class="section-note">
+              These are areas I&apos;m actively learning and exploring &mdash;
+              not claims of professional expertise.
+            </p>
+          </div>
+
+          <div class="devops-grid">
+            <div class="devops-card reveal">
+              <i class="fa-solid fa-rotate" aria-hidden="true"></i>
+              <h3>CI/CD</h3>
+              <p>Learning continuous integration and delivery pipelines.</p>
+            </div>
+            <div class="devops-card reveal">
+              <i class="fa-solid fa-cloud" aria-hidden="true"></i>
+              <h3>Cloud Infrastructure</h3>
+              <p>Exploring scalable cloud environments and services.</p>
+            </div>
+            <div class="devops-card reveal">
+              <i class="fa-solid fa-robot" aria-hidden="true"></i>
+              <h3>Automation</h3>
+              <p>Automating repetitive tasks to improve productivity.</p>
+            </div>
+            <div class="devops-card reveal">
+              <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+              <h3>Deployment</h3>
+              <p>Understanding modern deployment strategies.</p>
+            </div>
+            <div class="devops-card reveal">
+              <i class="fa-solid fa-gears" aria-hidden="true"></i>
+              <h3>DevOps Practices</h3>
+              <p>Building a foundation in collaborative DevOps culture.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Where I&apos;ve worked</span>
+            <h2 class="section-title">Experience</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <div class="timeline-head">
+                  <h3>DevOps Intern</h3>
+                  <span class="chip">3 months</span>
+                </div>
+                <p class="timeline-company">Krutanic Solutions</p>
+                <ul class="timeline-list">
+                  <li class="placeholder">
+                    [Add your internship responsibilities here]
+                  </li>
+                  <li class="placeholder">
+                    [Add a key task or tool you worked with]
+                  </li>
+                  <li class="placeholder">
+                    [Add an outcome or something you learned]
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Duplicate this block to add future experiences -->
+            <div class="timeline-item timeline-item-empty reveal">
+              <div
+                class="timeline-dot timeline-dot-empty"
+                aria-hidden="true"
+              ></div>
+              <div class="timeline-content timeline-content-empty">
+                <p class="placeholder">
+                  [Future experience &mdash; duplicate this block to add more
+                  roles]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Things I&apos;ve built</span>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-note">
+              Placeholder projects &mdash; replace the details with your real
+              work.
+            </p>
+          </div>
+
+          <div
+            class="filters reveal"
+            role="tablist"
+            aria-label="Project filters"
+          >
+            <button
+              class="filter-btn active"
+              data-filter="all"
+              role="tab"
+              aria-selected="true"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="web"
+              role="tab"
+              aria-selected="false"
+            >
+              Web
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="javascript"
+              role="tab"
+              aria-selected="false"
+            >
+              JavaScript
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="devops"
+              role="tab"
+              aria-selected="false"
+            >
+              DevOps
+            </button>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" data-category="web">
+              <div class="project-thumb">
+                <i class="fa-solid fa-globe" aria-hidden="true"></i>
+              </div>
+              <div class="project-body">
+                <h3 class="placeholder">[Add project name]</h3>
+                <p class="placeholder">[Add project description]</p>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline btn-sm">Live Demo</a>
+                  <a href="#" class="btn btn-ghost btn-sm"
+                    ><i class="fab fa-github" aria-hidden="true"></i> GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="javascript">
+              <div class="project-thumb">
+                <i class="fab fa-js" aria-hidden="true"></i>
+              </div>
+              <div class="project-body">
+                <h3 class="placeholder">[Add project name]</h3>
+                <p class="placeholder">[Add project description]</p>
+                <div class="tags">
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline btn-sm">Live Demo</a>
+                  <a href="#" class="btn btn-ghost btn-sm"
+                    ><i class="fab fa-github" aria-hidden="true"></i> GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="devops">
+              <div class="project-thumb">
+                <i class="fa-solid fa-cloud" aria-hidden="true"></i>
+              </div>
+              <div class="project-body">
+                <h3 class="placeholder">[Add project name]</h3>
+                <p class="placeholder">[Add project description]</p>
+                <div class="tags">
+                  <span class="tag">CI/CD</span>
+                  <span class="tag">Cloud</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline btn-sm">Live Demo</a>
+                  <a href="#" class="btn btn-ghost btn-sm"
+                    ><i class="fab fa-github" aria-hidden="true"></i> GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="web">
+              <div class="project-thumb">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              </div>
+              <div class="project-body">
+                <h3 class="placeholder">[Add project name]</h3>
+                <p class="placeholder">[Add project description]</p>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline btn-sm">Live Demo</a>
+                  <a href="#" class="btn btn-ghost btn-sm"
+                    ><i class="fab fa-github" aria-hidden="true"></i> GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-kicker">Get in touch</span>
+            <h2 class="section-title">Contact</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info reveal">
+              <h3>Let&apos;s Build Something Together</h3>
+              <p>
+                Feel free to reach out for collaborations, project discussions,
+                or web development conversations. Drop me a message and
+                I&apos;ll get back to you as soon as possible!
+              </p>
+
+              <ul class="contact-details">
+                <li>
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                  <span class="placeholder">[Add your email]</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                  <span class="placeholder">[Add your phone]</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  <span class="placeholder">[Add your location]</span>
+                </li>
+              </ul>
+
+              <ul class="contact-socials" aria-label="Social links">
+                <li>
+                  <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="GitHub"
+                    ><i class="fab fa-github" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram"
+                    ><i class="fab fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  aria-describedby="err-name"
+                />
+                <small class="error" id="err-name"></small>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  aria-describedby="err-email"
+                />
+                <small class="error" id="err-email"></small>
+              </div>
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  aria-describedby="err-subject"
+                />
+                <small class="error" id="err-subject"></small>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  aria-describedby="err-message"
+                ></textarea>
+                <small class="error" id="err-message"></small>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                Send Message
+              </button>
+              <p
+                class="form-status"
+                id="formStatus"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo-container">
+            <span class="logo-circle">EH</span>
+            <span class="logo-text">Endla Harshith Varma</span>
+          </a>
+          <p>Web Developer | DevOps Enthusiast</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <ul class="footer-socials" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="year"></span> Endla Harshith Varma. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

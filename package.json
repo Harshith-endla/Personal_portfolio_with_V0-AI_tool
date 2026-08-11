@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3000 serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
